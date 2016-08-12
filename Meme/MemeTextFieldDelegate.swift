@@ -9,7 +9,15 @@
 import Foundation
 import UIKit
 
-class memeTextFieldDelegate: NSObject, UITextFieldDelegate {
+class MemeTextFieldDelegate: NSObject, UITextFieldDelegate {
+	
+	func prepareTextField(textField: UITextField, defaultText: String) {
+		textField.delegate = self
+		textField.defaultTextAttributes = memeTextAttributes
+		textField.text = defaultText
+		textField.autocapitalizationType = .AllCharacters
+		textField.textAlignment = .Center
+	}
 	
 	let memeTextAttributes = [
 		NSStrokeColorAttributeName: UIColor.blackColor(),
@@ -17,8 +25,6 @@ class memeTextFieldDelegate: NSObject, UITextFieldDelegate {
 		NSFontAttributeName: UIFont(name: "HelveticaNeue-CondensedBlack", size: 40)!,
 		NSStrokeWidthAttributeName: NSNumber(int: -3)
 	]
-	
-	let alignment = ".Center"
 	
 	func textFieldShouldReturn(textField: UITextField) -> Bool {
 		textField.resignFirstResponder()

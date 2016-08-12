@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A5E8CFCD5D0DAC51AD56D04EA25C38A83B7312BA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A5E8CFCD5D0DAC51AD56D04EA25C38A83B7312BA" : 0,
+    "B1643F5E5F12690D938B346C2468F6161D7A3680" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F82BEC01-3149-434F-AC88-07C381AC4E99",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A5E8CFCD5D0DAC51AD56D04EA25C38A83B7312BA" : "Meme\/",
+    "B1643F5E5F12690D938B346C2468F6161D7A3680" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MemeMe",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MemeMe.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cjgaspari\/MemeMe.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A5E8CFCD5D0DAC51AD56D04EA25C38A83B7312BA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cjgaspari\/Udacity-iOS-Nanodegree.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B1643F5E5F12690D938B346C2468F6161D7A3680"
+    }
+  ]
+}
